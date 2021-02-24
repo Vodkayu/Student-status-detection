@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "学生详情",
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  }
+}

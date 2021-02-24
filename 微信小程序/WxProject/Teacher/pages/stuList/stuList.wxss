@@ -1,0 +1,28 @@
+
+.stu{
+  width: 80%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 60px;
+  border-radius: 15px;
+  box-shadow: 2px 2px #888888;
+}
+.stuName{
+  display: inline-block;
+  position: relative;
+  top: 30%;
+  left: 20px;
+}
+.stuNow{
+  display: inline-block;
+  position: relative;
+  top: 30%;
+  left: 40%;
+}
+.hide{
+  width: 100%;
+  height: 200px;
+  
+}

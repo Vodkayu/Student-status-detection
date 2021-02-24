@@ -1,0 +1,7 @@
+<!--pages/reg/reg.wxml-->
+
+
+<input placeholder='姓名' class='inputt' type='text' bindinput='input1'></input>
+<input placeholder='学号' class='inputt' type='text' bindinput='input2'></input>
+<button class='clickbutton' bindtap='click' url='../detail/detail'>{{text}}</button>
+<!-- <navigator class='navStu' url='../detail/detail'>进入学生详情</navigator> -->

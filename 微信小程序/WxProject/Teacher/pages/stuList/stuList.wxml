@@ -1,0 +1,6 @@
+<view wx:for="{{array}}">
+  <navigator class='stu' url='../detail/detail?ind={{index}}'> 
+    <view class='stuName'>姓名：{{stuName[index].name}}</view>
+    <view class='stuNow'>状态：{{stuNow[index]}}</view>
+  </navigator>
+</view>

@@ -1,0 +1,58 @@
+.container1{
+  width: 80%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 140px;
+  border-radius: 15px;
+  box-shadow: 2px 2px #888888;
+}
+.middleContainer{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.classInfo{
+  padding-top: 20px;
+}
+.container2{
+  width: 80%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 80px;
+  border-radius: 15px;
+  box-shadow: 2px 2px #888888;
+}
+.container3{
+  width: 80%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 2px 2px #888888;
+}
+.progress11{
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+.titleProgress{
+  width: 50%;
+  margin-left: 20px;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+.line{
+  position: relative;
+  top:-30px;
+}
+.titleLine{
+  position: relative;
+  left: 20px;
+  top: 15px;
+}

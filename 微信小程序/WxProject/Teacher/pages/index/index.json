@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "班级总览",
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  }
+}
