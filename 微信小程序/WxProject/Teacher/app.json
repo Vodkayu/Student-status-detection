@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/stuList/stuList",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#f0145a"
+
+  },
+  "tabBar": {
+    "color": "grey",
+    "selectedColor": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "班级总览",
+        "iconPath": "images/t.png",
+        "selectedIconPath": "images/t.png"
+      },
+      {
+        "pagePath": "pages/stuList/stuList",
+        "text": "学生列表",
+        "iconPath": "images/s.png",
+        "selectedIconPath": "images/s.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

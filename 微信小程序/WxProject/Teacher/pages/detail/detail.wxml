@@ -1,0 +1,25 @@
+<view class='container1'>
+  <view class='middleContainer'>
+    <view class='stuInfo'>姓名：{{stuName}}</view>
+    <view class='stuInfo'>学号：{{stuID}}</view>
+  </view>
+</view>
+
+<view class='container2'>
+
+  <view class='titleDetail'>听课状态分布</view>
+  <!-- <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}" bind:init="echartInit"></ec-canvas> -->
+  <view class='green'>
+    <view class='per'>专心：{{wg}}%</view>
+  <view class='greenarea' style='width:{{wg}}%'>.</view>
+  </view>
+
+   <view class='red'>
+    <view class='per'>专心：{{wr}}%</view>
+  <view class='redarea' style='width:{{wr}}%'>.</view>
+  </view>
+  <view class='className'>{{className}}</view>
+</view>
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" range-key='cla'>
+  <button class='choose' type="default">选择查看课程</button>
+</picker>

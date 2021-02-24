@@ -1,0 +1,21 @@
+<view class='container1'>
+  <view class='middleContainer'>
+    <view class='classInfo' >班级号：{{classNumber}}</view>
+    <view class='classInfo'>班级人数：{{classTotal}}</view>
+    <view class='classInfo'>当前课程：{{className}}</view>
+  </view>
+</view>
+
+<view class='container2' bindtap='test'>
+  <view class='titleProgress'>当前认真听课学生比例</view>
+  <view class="padding bg-white" class='progress11'>
+    <view class="cu-progress round margin-top">
+      <view class='bg-red' style="width:{{loading?percent:'0%'}};">{{percent}}</view>
+    </view>
+  </view>
+</view>
+
+<view class='container3'>
+  <view class='titleLine'>听课率统计(%)</view>
+  <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}" class='line'></ec-canvas>
+</view>
